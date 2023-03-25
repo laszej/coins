@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-       
+       <title>Stanisław Laskowski front-end developer</title>
       </Head>
       
       

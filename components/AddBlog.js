@@ -8,6 +8,7 @@ const AddBlog = () => {
   const [success, setSuccess] = useState(false);
 
   const handleSubmit = async (event) => {
+    event.preventDefault()
     setLoading(true);
     setError(null);
     setSuccess(false);
@@ -22,9 +23,7 @@ const AddBlog = () => {
         body: JSON.stringify({ title, content })
       });
   
-      if (!response.ok) {
-        throw new Error('Something went wrong');
-      }
+   
   
       setSuccess(true);
       setTitle('');
@@ -61,11 +60,10 @@ const AddBlog = () => {
           ></textarea>
         </div>
         <button type="submit" className="btn btn-primary"disabled={loading}>
-          {loading ? 'Loading...' : 'Submit'}
+          {loading ? 'Ładuje...' : 'Wyślij'}
         </button>
         {error && <p>{error}</p>}
-        {success && <p>Blog post submitted successfully!</p>}
-      </form>
+        </form>
     </div>
   );
 };
