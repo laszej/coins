@@ -1,5 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
+import Comments from "../components/Comments";
 
 const Gallery = () => {
 
@@ -51,7 +52,7 @@ const Gallery = () => {
 
         <p className="lead" style={{marginTop:"2rem"}}>Aktualnie skupiam się na front-end, ale widzę duży potencjał (i niezależność przy tworzeniu aplikacji) w technologiach back-endowych. Bardzo ciekawym kierunkiem rozwoju jest też analiza i wizualizacja danych. </p>
 
-        <div style={{display: "flex", flexDirection: "column"}}>
+        <div style={{display: "flex", flexDirection: "column", flexWrap:"wrap"}}>
         <p className="lead" style={{marginTop:"2rem"}}> Zapraszam do odwiedzenia mojego</p>
         <Link href="#" className="btn btn-primary btn-lg"
          style={{marginLeft: "2rem", marginTop: "1rem", maxWidth: "150px"}}
@@ -128,8 +129,11 @@ const Gallery = () => {
 
         
         </div>
-   
+
+        <Comments collection="devAboutPage"/>
+        
     </div>
+    
     </div>
   )
 }

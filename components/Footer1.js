@@ -12,7 +12,7 @@ const Footer1 = () => {
           <p style={{letterSpacing:"0.05rem"}}>Piszę kod raz, który następnie działa w przeglądarce i w aplikacjach na: iOS | Android | Windows | macOs | Linux</p>
         </div>
         <div className="col-md-4 my-1">
-          <h3>Skomentuj</h3>
+          <h3>Dodaj komentarz</h3>
           <ul className="list-unstyled">
           <p style={{letterSpacing:"0.05rem"}}>Jeśli chcesz przekazać swoje wrażenia dotyczące strony, portfolio lub zadać jakieś pytanie, możesz to zrobić bezpośrednio na stronie</p>
             <h4><Link href="/comments">komentarze</Link></h4>

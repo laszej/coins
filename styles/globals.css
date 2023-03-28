@@ -116,6 +116,7 @@ margin-bottom:1rem;}
   #gridGalleryJumbo{
     margin: 0 auto;
     margin-bottom: 2rem;
+    max-width:90%;
   }
 
   .gridGallItem {
