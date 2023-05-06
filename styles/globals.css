@@ -60,6 +60,10 @@ ul{
 }
 
 #jumbotron{
+  padding-top: 5%;
+  padding-right: 5%;
+  padding-bottom: 10%;
+  padding-left: 10%;
   margin-top:0;
   margin-left: 2rem;
 }
@@ -98,6 +102,7 @@ margin-bottom:1rem;}
     flex-direction: column;
   }
   #jumbotron{
+  
     margin-top: 2rem;
     max-width: 90%;
     margin-left: 0;

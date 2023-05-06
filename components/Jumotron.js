@@ -10,7 +10,7 @@ export default function Jumbotron() {
     <div className="jumotron">
       <div className="jumbotron jumbotron-fluid" id="jumbotron">
         <div className="container">
-          <h1 className="display-4">Technologie webowe</h1>
+          <h1 className="display-4" style={{marginBottom: "1rem"}}>Technologie webowe</h1>
           <p className="lead">    Witam wszystkich serdecznie na mojej stronie! Jestem programistą korzystającym z technologii webowych do tworzenia: </p>
         <ul style={{marginLeft: "auto"}}>
 
