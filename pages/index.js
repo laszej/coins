@@ -11,8 +11,9 @@ export default function Home() {
   return (
     <>
     <Head>
-        <title> Stanisław Laskowski front-end developer</title>
-        
+      <title>Stanisław Laskowski - konserwatysta w Poznaniu</title>
+      <link rel="icon" href="/favicon.png" />
+      <meta name="description" content="programista. javascript. webdevelopment. react" />
       </Head>
 
     <div className={styles.homeMain}>
