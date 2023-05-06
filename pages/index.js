@@ -12,7 +12,7 @@ export default function Home() {
     <>
     <Head>
       <title>Stanisław Laskowski - konserwatysta w Poznaniu</title>
-      <link rel="icon" href="/favicon.png" />
+      <link rel="icon" href="/images/favicon.ico" />
       <meta name="description" content="programista. javascript. webdevelopment. react" />
       </Head>
 
